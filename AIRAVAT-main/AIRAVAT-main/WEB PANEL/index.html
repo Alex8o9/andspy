@@ -12,18 +12,24 @@
 <script src="./firebase-database.js"></script>
 <script type="text/javascript">
 //EDIT UNDER THIS ONLY
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-const  firebaseConfig = {
-apiKey: "API KEY",
-authDomain: "AUTH DOMAIN",
-databaseURL: "DATABSE URL",
-projectId: "PROJECT ID",
-storageBucket: "BUCKET URL",
-messagingSenderId: "SENDER ID",
-appId: "APP ID"
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBLSRbdf6_tcIIpRk-ES41kcl0i0wXuEqk",
+  authDomain: "androidtest-230c3.firebaseapp.com",
+  databaseURL: "https://androidtest-230c3-default-rtdb.firebaseio.com",
+  projectId: "androidtest-230c3",
+  storageBucket: "androidtest-230c3.firebasestorage.app",
+  messagingSenderId: "970575302710",
+  appId: "1:970575302710:web:e0b6259de7c053c9dd8897"
 };
- 
 
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 //DON'T EDIT BELOW THIS
 
 
